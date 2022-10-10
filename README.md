@@ -1,1 +1,1 @@
-# preview_generater_helper
+# preview_generator_helper
