@@ -1,6 +1,6 @@
 #!/usr/local/bin/perl
 
-# Preview Generator Helper
+# Preview Generator Helper for Nextcloud
 # Seking the latest file id in an external storage, then
 # job queues for Preview Generator are inserted on the table.
 
@@ -15,9 +15,9 @@ our $DB_HOST = "localhost";
 our $DB_PORT = "3386";
 # Nextcloud - to specify a storage to seek
 our $NC_USER = "nextuser";  # User name who can read the storage
-our $NC_STORAGE_ID = 7;		# Storage ID which  is found on oc_storages
+our $NC_STORAGE_ID = 7;		# Storage ID which is found on oc_storages
 # To record the last file_id to seek
-our $LAST_ID_FILE = "/usr/local/www/last_file_id_home.dat";
+our $LAST_ID_FILE = "/usr/local/www/last_file_id.dat";
 
 
 # main
